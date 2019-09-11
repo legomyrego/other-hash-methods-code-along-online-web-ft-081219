@@ -9,10 +9,7 @@ groceries = {
 }
 
 def get_the_values(groceries)
-  groceries.each do |key, value|
-  value.each |item|
-
-  puts '${value}'
+  groceries.values.flatten
 
 
 end
